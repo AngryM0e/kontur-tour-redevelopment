@@ -1,0 +1,114 @@
+
+#rokbox-wrapper.rokbox-light {
+}
+#rokbox-wrapper .clr {
+    clear: both;
+}
+#rokbox-close {
+    background: url("../images/close.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    clear: both;
+    display: block;
+    height: 30px;
+    width: 20px;
+}
+#rokbox-close span {
+    display: none;
+}
+#rokbox-top.rokbox-left {
+    background: url("../images/tl.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    clear: both;
+}
+#rokbox-top .rokbox-right {
+    background: url("../images/tr.png") no-repeat scroll 100% 0 rgba(0, 0, 0, 0);
+}
+#rokbox-top .rokbox-center {
+    background: url("../images/top.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#rokbox-middle {
+    overflow: hidden;
+}
+#rokbox-middle.rokbox-left {
+    background: url("../images/left.png") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    clear: both;
+}
+#rokbox-middle .rokbox-right {
+    background: url("../images/right.png") repeat-y scroll 100% 0 rgba(0, 0, 0, 0);
+}
+#rokbox-middle .rokbox-center {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#rokbox-bottom.rokbox-left {
+    background: url("../images/bl.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+#rokbox-bottom .rokbox-right {
+    background: url("../images/br.png") no-repeat scroll 100% 0 rgba(0, 0, 0, 0);
+}
+#rokbox-bottom .rokbox-center {
+    background: url("../images/bottom.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#rokbox-container {
+}
+#rokbox-container.spinner {
+    background: url("../images/ajax-loader.gif") no-repeat scroll 50% 50% rgba(0, 0, 0, 0);
+}
+#rokbox-container.warning {
+    background: url("../images/warning.png") no-repeat scroll 50% 50% rgba(0, 0, 0, 0);
+}
+#rokbox-container.warning h1 {
+    margin-left: -20px;
+    position: absolute;
+    text-align: center;
+}
+#rokbox-arrows {
+    height: 20px;
+    margin-top: 15px;
+    position: absolute;
+    right: 0;
+    width: 70px;
+}
+#rokbox-arrows a {
+    display: block;
+    float: left;
+    height: 20px;
+    margin-right: 5px;
+    width: 20px;
+}
+#rokbox-arrows #rokbox-previous {
+    background: url("../images/prev.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+#rokbox-arrows #rokbox-previous span {
+    display: none;
+}
+#rokbox-arrows #rokbox-next {
+    background: url("../images/next.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+#rokbox-arrows #rokbox-next span {
+    display: none;
+}
+#rokbox-arrows #rokbox-previous.inactive, #rokbox-arrows #rokbox-next.inactive {
+    background-position: 0 -20px;
+}
+#rokbox-caption {
+    font-family: Helvetica,Arial,sans-serif;
+    padding-top: 25px;
+}
+#rokbox-caption h2 {
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 0;
+}
+#rokbox-caption p {
+    color: #999999;
+    font-size: 12px;
+    margin: 0;
+}

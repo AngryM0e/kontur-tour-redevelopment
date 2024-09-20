@@ -1,0 +1,104 @@
+<?php
+
+/* views/layouts/footer.twig */
+class __TwigTemplate_08d6c6a629c51b59770ceb6a61667eb8 extends Twig_Template
+{
+    public function __construct(Twig_Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->parent = false;
+
+        $this->blocks = array(
+        );
+    }
+
+    protected function doDisplay(array $context, array $blocks = array())
+    {
+        // line 1
+        echo "<div class=\"cleared\"></div>
+<div class=\"art-footer\">
+    <div class=\"art-footer-t\"></div>
+    <div class=\"art-footer-body\">
+        <div class=\"art-footer-text\">
+            <font size=\"15\"><p>Красноармейский пр-т. 7, оф. 304</p></font>
+            <font size=\"15\"><p>тел:(4872)253-109, 253-160</p></font>
+            <font size=\"15\"><p>natakontur@mail.ru</p></font>
+        </div>
+        <div class=\"cleared\"></div>
+    </div>
+</div>
+<div class=\"cleared\"></div>
+</div>
+</div>
+</div>
+<div
+    style=\"visibility: hidden; opacity: 0; display: none; position: absolute; top: 0px; left: 0px; cursor: pointer; background-color: rgb(0, 0, 0); z-index: 65550;\"
+    class=\"rokbox-overlay\" id=\"rokbox-overlay\"></div>
+<div style=\"position: absolute; z-index: 65555; visibility: hidden; opacity: 0; display: none;\" class=\"rokbox-light\"
+     id=\"rokbox-wrapper\">
+    <div class=\"rokbox-left\" id=\"rokbox-top\">
+        <div class=\"rokbox-right\">
+            <div class=\"rokbox-center\"></div>
+        </div>
+    </div>
+    <div class=\"rokbox-left\" id=\"rokbox-middle\">
+        <div class=\"rokbox-right\">
+            <div class=\"rokbox-center\">
+                <a href=\"#\" id=\"rokbox-close\"><span>[x] close</span></a>
+            </div>
+        </div>
+    </div>
+    <div class=\"rokbox-left\" id=\"rokbox-bottom\">
+        <div class=\"rokbox-right\">
+            <div class=\"rokbox-center\"></div>
+        </div>
+    </div>
+    <div class=\"clr\"></div>
+</div>
+<div style=\"position: absolute; display: none; width: 375px; height: 380px; top: 50px; left: 50px; z-index: 999;\"
+     id=\"MistWindow\"></div>
+<div style=\"display: none;\" class=\"grey\" id=\"lbOverlay\"></div>
+<div style=\"display: none;\" id=\"lbMain\">
+    <div class=\"grey\" id=\"lbOuterContainer\">
+        <div style=\"display: none;\" id=\"lbIframeContainer\">
+            <iframe style=\"display: none;\" name=\"lbIframe\" id=\"lbIframe\"></iframe>
+            \\
+        </div>
+        <div id=\"lbImageContainer\">
+            <img id=\"lbImage\">
+
+            <div id=\"lbHoverNav\">
+                <a href=\"#\" class=\"grey\" id=\"lbPrev\"></a>
+                <a href=\"#\" class=\"grey\" id=\"lbNext\"></a>
+            </div>
+        </div>
+        <div id=\"lbLoading\"></div>
+    </div>
+    <div class=\"grey\" id=\"lbDetailsContainer\">
+        <div class=\"grey\" id=\"lbDetailsData\">
+            <div id=\"lbDetails\">
+                <span id=\"lbCaption\"></span>
+                <span id=\"lbNumberDisplay\"></span>
+                <span style=\"display: none;\" id=\"lbNavDisplay\"></span>
+            </div>
+            <div id=\"lbBottomNav\">
+                <a href=\"#\" class=\"grey\" id=\"lbClose\"></a>
+                <a style=\"display: none;\" href=\"#\" class=\"grey\" id=\"lbPause\"></a>
+                <a style=\"display: none;\" href=\"#\" class=\"grey\" id=\"lbPlay\"></a>
+            </div>
+        </div>
+    </div>
+</div>";
+    }
+
+    public function getTemplateName()
+    {
+        return "views/layouts/footer.twig";
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  19 => 1,);
+    }
+}

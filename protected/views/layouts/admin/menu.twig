@@ -1,0 +1,19 @@
+<div class="menu">
+            <div class="cont">
+                {{ this.widget('zii.widgets.CMenu',{
+                        'linkLabelWrapper':'span',
+                        'items': [
+                                {'label':'Главная', 'url':['/admin'],'active':this.id=='admin'?true:false},
+                                {'label':'Основные страницы', 'url':['/admin/static_pages'],'active':this.id=='pages'?true:false},
+                                {'label':'Черное море', 'url':['/admin/blacksea_pages'],'active':this.id=='blackseaPages'?true:false},
+                                {'label':'Азовское море', 'url':['/admin/azovsea_pages'],'active':this.id=='azovseaPages'?true:false},
+                                {'label':'Дополнительные страницы', 'url':['/admin/additional_pages'],'active':this.id=='additionalPages'?true:false},
+                            ]
+                    },true)|raw
+                 }}
+            </div>
+        </div>
+{# {'label':'Общая информация', 'url':['/generalInfo/admin'],'active':this.id=='generalInfo'?true:false}, #}
+{#  {'label':'Новости', 'url':['/news/admin'],'active':this.id=='news'?true:false}, #}
+{# {'label':'Банеры', 'url':['/banners/admin'],'active':this.id=='banners'?true:false}, #}
+{# {'label':'Слайдер на главной', 'url':['/slider/admin'],'active':this.id=='slider'?true:false},#}

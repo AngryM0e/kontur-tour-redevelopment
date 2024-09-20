@@ -1,0 +1,23 @@
+<?php
+return array(
+    'gii' => 'gii',
+    'news' => 'news/news',
+    'news/<id:\d+>' => 'news/news',
+    'admin' => 'admin/admin',
+    'main' => 'admin/main',
+    'admin/dislinks'=> 'pages/disableAllLinks',
+    'admin/static_pages' => 'pages/admin',
+    'admin/static_pages/create' => 'pages/create',
+    'admin/blacksea_pages' => 'blackseaPages/admin',
+    'admin/blacksea_pages/create' => 'blackseaPages/create',
+    'admin/azovsea_pages' => 'azovseaPages/admin',
+    'admin/azovsea_pages/create' => 'azovseaPages/create',
+    'admin/additional_pages' => 'additionalPages/admin',
+    'admin/additional_pages/create' => 'additionalPages/create',
+    'bs/<url>' => 'blackseaPages/page',
+    'az/<url>' => 'azovseaPages/page',
+    'ad/<url>' => 'additionalPages/page',
+    'accesschange' => 'admin/accesschange',
+    'logout' => 'admin/logout',
+    '<url>' => 'pages/page',
+);

@@ -1,0 +1,18 @@
+{% extends 'views/layouts/admin/main.twig' %}
+{% block content %}
+<h1>Редактирование страниц</h1><br />
+{{  C.Html.link('Добавить страницу','/admin/blacksea_pages/create')|raw }}
+{% do this.widget('zii.widgets.grid.CGridView', {
+	'id':'pages-grid',
+	'dataProvider': model.search,
+    'filter': model,
+	'columns':[
+		'meta_title','title','description','keywords', 'sort_num', 'url',
+		{
+           'class':'CButtonColumn',
+           'template':'{update}&nbsp;{delete}',
+        },
+   	 ],
+   })
+%}
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends 'views/layouts/admin/main.twig' %}
+{% block content %}
+<h1>Новости</h1><br />
+{{ C.Html.link('Добавить новость','/news/create')|raw }}
+{% do this.widget('zii.widgets.grid.CGridView', {
+	'id':'news-grid',
+	'dataProvider':model.search,
+	'columns':[
+        'name','page',
+		{
+                               'class':'CButtonColumn',
+                               'template':'{update}{delete}',
+                            },
+	],
+}) %}
+{% endblock %}
+
+

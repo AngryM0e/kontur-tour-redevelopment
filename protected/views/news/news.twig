@@ -1,0 +1,37 @@
+{% extends 'views/layouts/main.twig' %}
+{% block content %}
+    {% if flag == false %}
+            <div class="wave"></div>
+            <h1 class="typical">{{ model.name }}</h1>
+            <div class="wave"></div>
+            <br />
+            <div class="maininfo">
+                {{ model.page|raw }}
+                 <br/>
+                <a href="/news" style="text-align: right; float: right;">Все новости</a>
+            </div>
+            <br/><br/>
+            {% include "views/layouts/lastnews.twig" %}
+    {% else %}
+        <div class="maininfo">
+        {% for news_item in news %}
+            <h3>{{ news_item.name|raw  }} ({{ this.data_convert(news_item.creation_date)|raw }} года)</h3>
+            <p>{{ news_item.page|raw  }} ... <a href="/news/{{ news_item.id|raw  }}">Подробнее</a></p>
+            
+        {% endfor %}
+
+        {% do this.widget('CLinkPager', {
+                'pages' : pages,
+                'maxButtonCount' : 5,
+                'firstPageLabel' : "<<",
+                'lastPageLabel' : ">>",
+                'nextPageLabel' : ">",
+                'prevPageLabel' : "<",
+                'header' : "",
+                'cssFile' : '/css/pagernews.css'
+           })
+        %}
+        <br /><br />
+        </div>
+    {% endif %}
+{% endblock %}

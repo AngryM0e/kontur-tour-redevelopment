@@ -1,0 +1,32 @@
+<div class="view">
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('id')); ?>:</b>
+	<?php echo CHtml::link(CHtml::encode($data->id), array('view', 'id'=>$data->id)); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('name')); ?>:</b>
+	<?php echo CHtml::encode($data->name); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('page')); ?>:</b>
+	<?php echo CHtml::encode($data->page); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('title')); ?>:</b>
+	<?php echo CHtml::encode($data->title); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('meta_d')); ?>:</b>
+	<?php echo CHtml::encode($data->meta_d); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('meta_k')); ?>:</b>
+	<?php echo CHtml::encode($data->meta_k); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('text')); ?>:</b>
+	<?php echo CHtml::encode($data->text); ?>
+	<br />
+
+
+</div>

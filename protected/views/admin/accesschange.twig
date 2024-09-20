@@ -1,0 +1,32 @@
+{% extends 'views/layouts/admin/main.twig' %}
+{% block content %}
+<h3>Смена пароля</h3>
+<p>Вам необходимо ввести ваш логин, старый и новый пароли:</p>
+
+{#{% set form = this.beginWidget('CActiveForm',{
+	'id':'change-form',
+	'enableAjaxValidation':false,
+              'action':'/admin/changeyourpassword',
+}) %} #}       
+<form action='/admin/changeyourpassword' method='POST'>
+   <table>
+     <tr>
+        <td><div class="text_login_form">Логин:</div></td>
+        <td><div><input style="width: 136px" id="LoginForm_username" value="" type="text" name="LoginForm[username]"/></div></td>
+        <td>&nbsp;</td>
+     </tr>
+     <tr>
+         <td><div class="text_login_form">Старый пароль:</div></td>
+         <td><div><input type="text" style="width: 136px" id="LoginForm_passwordold" value="" type="oldpassword" name="LoginForm[oldpassword]"/></div></td>
+        <td></td>
+     </tr>
+     <tr>
+         <td><div class="text_login_form">Новый пароль:</div></td>
+         <td><div><input type="text" style="width: 136px" id="LoginForm_passwordnew" value="" type="newpassword" name="LoginForm[newpassword]"/></div></td>
+        <td></td>
+     </tr>
+    </table>
+{{ C.Html.submitButton("Сменить")|raw }}
+</form>        
+{# {{ void(this.widget()) }} #}
+{%  endblock %}

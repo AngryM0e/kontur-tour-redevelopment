@@ -1,0 +1,533 @@
+2024/09/20 17:26:20 [error] [php] Trying to get property of non-object (/home/k/konturtoru/test/public_html/protected/controllers/PagesController.php:50)
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/k/konturtoru/test/public_html/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(133): PagesController->runAction()
+#3 /home/k/konturtoru/test/public_html/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/k/konturtoru/test/public_html/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/k/konturtoru/test/public_html/framework/web/filters/CInlineFilter.php(58): PagesController->filterAccessControl()
+#6 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/k/konturtoru/test/public_html/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/k/konturtoru/test/public_html/framework/web/CController.php(265): PagesController->runActionWithFilters()
+#9 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(282): PagesController->run()
+#10 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/k/konturtoru/test/public_html/index.php(21): CWebApplication->run()
+REQUEST_URI=/favicon.ico
+2024/09/20 18:13:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/mootools.js".' in /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('js/mootools.js')
+#1 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/k/konturtoru/test/public_html/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/mootools.js
+HTTP_REFERER=https://kontur-tour.ru/bs/rossiya1
+---
+2024/09/20 18:13:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/logo.png".' in /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/k/konturtoru/test/public_html/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/logo.png
+HTTP_REFERER=https://kontur-tour.ru/css/template.css
+---
+2024/09/20 18:14:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/mootools.js".' in /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('js/mootools.js')
+#1 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/k/konturtoru/test/public_html/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/mootools.js
+HTTP_REFERER=https://kontur-tour.ru/otpravleniya
+---
+2024/09/20 18:30:10 [error] [php] Trying to get property of non-object (/home/k/konturtoru/test/public_html/protected/controllers/PagesController.php:45)
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/k/konturtoru/test/public_html/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(133): PagesController->runAction()
+#3 /home/k/konturtoru/test/public_html/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/k/konturtoru/test/public_html/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/k/konturtoru/test/public_html/framework/web/filters/CInlineFilter.php(58): PagesController->filterAccessControl()
+#6 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/k/konturtoru/test/public_html/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/k/konturtoru/test/public_html/framework/web/CController.php(265): PagesController->runActionWithFilters()
+#9 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(282): PagesController->run()
+#10 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/k/konturtoru/test/public_html/index.php(21): CWebApplication->run()
+REQUEST_URI=/cities
+2024/09/20 18:40:53 [error] [php] Trying to get property of non-object (/home/k/konturtoru/test/public_html/protected/controllers/PagesController.php:50)
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/k/konturtoru/test/public_html/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(133): PagesController->runAction()
+#3 /home/k/konturtoru/test/public_html/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/k/konturtoru/test/public_html/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/k/konturtoru/test/public_html/framework/web/filters/CInlineFilter.php(58): PagesController->filterAccessControl()
+#6 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/k/konturtoru/test/public_html/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/k/konturtoru/test/public_html/framework/web/CController.php(265): PagesController->runActionWithFilters()
+#9 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(282): PagesController->run()
+#10 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/k/konturtoru/test/public_html/index.php(21): CWebApplication->run()
+REQUEST_URI=/favicon.ico
+2024/09/20 18:42:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/mootools.js".' in /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('js/mootools.js')
+#1 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/k/konturtoru/test/public_html/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/mootools.js
+HTTP_REFERER=http://kontur-tour.ru/
+---
+2024/09/20 18:42:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/logo.png".' in /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/k/konturtoru/test/public_html/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/logo.png
+HTTP_REFERER=http://kontur-tour.ru/css/template.css
+---
+2024/09/20 18:43:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/mootools.js".' in /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('js/mootools.js')
+#1 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/k/konturtoru/test/public_html/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/mootools.js
+HTTP_REFERER=http://kontur-tour.ru/bronirovanie-tura
+---
+2024/09/20 18:43:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/logo.png".' in /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/k/konturtoru/test/public_html/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/logo.png
+HTTP_REFERER=http://kontur-tour.ru/css/template.css
+---
+2024/09/20 18:43:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/mootools.js".' in /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('js/mootools.js')
+#1 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/k/konturtoru/test/public_html/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/mootools.js
+HTTP_REFERER=http://kontur-tour.ru/vuezd
+---
+2024/09/20 18:43:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/mootools.js".' in /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('js/mootools.js')
+#1 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/k/konturtoru/test/public_html/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/mootools.js
+HTTP_REFERER=http://kontur-tour.ru/bronirovanie-tura
+---
+2024/09/20 18:43:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/mootools.js".' in /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('js/mootools.js')
+#1 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/k/konturtoru/test/public_html/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/mootools.js
+HTTP_REFERER=http://kontur-tour.ru/bronirovanie-tura
+---
+2024/09/20 18:43:38 [error] [php] Trying to get property of non-object (/home/k/konturtoru/test/public_html/protected/controllers/PagesController.php:50)
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/k/konturtoru/test/public_html/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(133): PagesController->runAction()
+#3 /home/k/konturtoru/test/public_html/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/k/konturtoru/test/public_html/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/k/konturtoru/test/public_html/framework/web/filters/CInlineFilter.php(58): PagesController->filterAccessControl()
+#6 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/k/konturtoru/test/public_html/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/k/konturtoru/test/public_html/framework/web/CController.php(265): PagesController->runActionWithFilters()
+#9 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(282): PagesController->run()
+#10 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/k/konturtoru/test/public_html/index.php(21): CWebApplication->run()
+REQUEST_URI=/favicon.ico
+2024/09/20 18:43:51 [error] [php] Trying to get property of non-object (/home/k/konturtoru/test/public_html/protected/controllers/PagesController.php:50)
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/k/konturtoru/test/public_html/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(133): PagesController->runAction()
+#3 /home/k/konturtoru/test/public_html/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/k/konturtoru/test/public_html/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/k/konturtoru/test/public_html/framework/web/filters/CInlineFilter.php(58): PagesController->filterAccessControl()
+#6 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/k/konturtoru/test/public_html/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/k/konturtoru/test/public_html/framework/web/CController.php(265): PagesController->runActionWithFilters()
+#9 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(282): PagesController->run()
+#10 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/k/konturtoru/test/public_html/index.php(21): CWebApplication->run()
+REQUEST_URI=/favicon.ico
+2024/09/20 18:43:53 [error] [php] Trying to get property of non-object (/home/k/konturtoru/test/public_html/protected/controllers/PagesController.php:50)
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/k/konturtoru/test/public_html/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(133): PagesController->runAction()
+#3 /home/k/konturtoru/test/public_html/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/k/konturtoru/test/public_html/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/k/konturtoru/test/public_html/framework/web/filters/CInlineFilter.php(58): PagesController->filterAccessControl()
+#6 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/k/konturtoru/test/public_html/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/k/konturtoru/test/public_html/framework/web/CController.php(265): PagesController->runActionWithFilters()
+#9 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(282): PagesController->run()
+#10 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/k/konturtoru/test/public_html/index.php(21): CWebApplication->run()
+REQUEST_URI=/favicon.ico
+2024/09/20 18:43:57 [error] [php] Trying to get property of non-object (/home/k/konturtoru/test/public_html/protected/controllers/PagesController.php:50)
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/k/konturtoru/test/public_html/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(133): PagesController->runAction()
+#3 /home/k/konturtoru/test/public_html/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/k/konturtoru/test/public_html/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/k/konturtoru/test/public_html/framework/web/filters/CInlineFilter.php(58): PagesController->filterAccessControl()
+#6 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/k/konturtoru/test/public_html/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/k/konturtoru/test/public_html/framework/web/CController.php(265): PagesController->runActionWithFilters()
+#9 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(282): PagesController->run()
+#10 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/k/konturtoru/test/public_html/index.php(21): CWebApplication->run()
+REQUEST_URI=/favicon.ico
+2024/09/20 18:44:17 [error] [php] Trying to get property of non-object (/home/k/konturtoru/test/public_html/protected/controllers/PagesController.php:50)
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/k/konturtoru/test/public_html/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(133): PagesController->runAction()
+#3 /home/k/konturtoru/test/public_html/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/k/konturtoru/test/public_html/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/k/konturtoru/test/public_html/framework/web/filters/CInlineFilter.php(58): PagesController->filterAccessControl()
+#6 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/k/konturtoru/test/public_html/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/k/konturtoru/test/public_html/framework/web/CController.php(265): PagesController->runActionWithFilters()
+#9 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(282): PagesController->run()
+#10 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/k/konturtoru/test/public_html/index.php(21): CWebApplication->run()
+REQUEST_URI=/favicon.ico
+2024/09/20 18:44:19 [error] [php] Trying to get property of non-object (/home/k/konturtoru/test/public_html/protected/controllers/PagesController.php:50)
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/k/konturtoru/test/public_html/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(133): PagesController->runAction()
+#3 /home/k/konturtoru/test/public_html/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/k/konturtoru/test/public_html/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/k/konturtoru/test/public_html/framework/web/filters/CInlineFilter.php(58): PagesController->filterAccessControl()
+#6 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/k/konturtoru/test/public_html/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/k/konturtoru/test/public_html/framework/web/CController.php(265): PagesController->runActionWithFilters()
+#9 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(282): PagesController->run()
+#10 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/k/konturtoru/test/public_html/index.php(21): CWebApplication->run()
+REQUEST_URI=/favicon.ico
+2024/09/20 18:44:26 [error] [php] Trying to get property of non-object (/home/k/konturtoru/test/public_html/protected/controllers/PagesController.php:50)
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/k/konturtoru/test/public_html/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(133): PagesController->runAction()
+#3 /home/k/konturtoru/test/public_html/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/k/konturtoru/test/public_html/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/k/konturtoru/test/public_html/framework/web/filters/CInlineFilter.php(58): PagesController->filterAccessControl()
+#6 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/k/konturtoru/test/public_html/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/k/konturtoru/test/public_html/framework/web/CController.php(265): PagesController->runActionWithFilters()
+#9 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(282): PagesController->run()
+#10 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/k/konturtoru/test/public_html/index.php(21): CWebApplication->run()
+REQUEST_URI=/favicon.ico
+2024/09/20 18:44:27 [error] [php] Trying to get property of non-object (/home/k/konturtoru/test/public_html/protected/controllers/PagesController.php:50)
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/k/konturtoru/test/public_html/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(133): PagesController->runAction()
+#3 /home/k/konturtoru/test/public_html/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/k/konturtoru/test/public_html/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/k/konturtoru/test/public_html/framework/web/filters/CInlineFilter.php(58): PagesController->filterAccessControl()
+#6 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/k/konturtoru/test/public_html/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/k/konturtoru/test/public_html/framework/web/CController.php(265): PagesController->runActionWithFilters()
+#9 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(282): PagesController->run()
+#10 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/k/konturtoru/test/public_html/index.php(21): CWebApplication->run()
+REQUEST_URI=/favicon.ico
+2024/09/20 18:44:52 [error] [php] Trying to get property of non-object (/home/k/konturtoru/test/public_html/protected/controllers/PagesController.php:50)
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/k/konturtoru/test/public_html/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(133): PagesController->runAction()
+#3 /home/k/konturtoru/test/public_html/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/k/konturtoru/test/public_html/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/k/konturtoru/test/public_html/framework/web/filters/CInlineFilter.php(58): PagesController->filterAccessControl()
+#6 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/k/konturtoru/test/public_html/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/k/konturtoru/test/public_html/framework/web/CController.php(265): PagesController->runActionWithFilters()
+#9 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(282): PagesController->run()
+#10 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/k/konturtoru/test/public_html/index.php(21): CWebApplication->run()
+REQUEST_URI=/favicon.ico
+2024/09/20 18:44:52 [error] [php] Trying to get property of non-object (/home/k/konturtoru/test/public_html/protected/controllers/PagesController.php:50)
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/k/konturtoru/test/public_html/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(133): PagesController->runAction()
+#3 /home/k/konturtoru/test/public_html/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/k/konturtoru/test/public_html/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/k/konturtoru/test/public_html/framework/web/filters/CInlineFilter.php(58): PagesController->filterAccessControl()
+#6 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/k/konturtoru/test/public_html/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/k/konturtoru/test/public_html/framework/web/CController.php(265): PagesController->runActionWithFilters()
+#9 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(282): PagesController->run()
+#10 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/k/konturtoru/test/public_html/index.php(21): CWebApplication->run()
+REQUEST_URI=/favicon.ico
+2024/09/20 18:44:53 [error] [php] Trying to get property of non-object (/home/k/konturtoru/test/public_html/protected/controllers/PagesController.php:50)
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/k/konturtoru/test/public_html/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(133): PagesController->runAction()
+#3 /home/k/konturtoru/test/public_html/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/k/konturtoru/test/public_html/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/k/konturtoru/test/public_html/framework/web/filters/CInlineFilter.php(58): PagesController->filterAccessControl()
+#6 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/k/konturtoru/test/public_html/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/k/konturtoru/test/public_html/framework/web/CController.php(265): PagesController->runActionWithFilters()
+#9 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(282): PagesController->run()
+#10 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/k/konturtoru/test/public_html/index.php(21): CWebApplication->run()
+REQUEST_URI=/favicon.ico
+2024/09/20 18:44:53 [error] [php] Trying to get property of non-object (/home/k/konturtoru/test/public_html/protected/controllers/PagesController.php:50)
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/k/konturtoru/test/public_html/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(133): PagesController->runAction()
+#3 /home/k/konturtoru/test/public_html/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/k/konturtoru/test/public_html/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/k/konturtoru/test/public_html/framework/web/filters/CInlineFilter.php(58): PagesController->filterAccessControl()
+#6 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/k/konturtoru/test/public_html/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/k/konturtoru/test/public_html/framework/web/CController.php(265): PagesController->runActionWithFilters()
+#9 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(282): PagesController->run()
+#10 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/k/konturtoru/test/public_html/index.php(21): CWebApplication->run()
+REQUEST_URI=/favicon.ico
+2024/09/20 18:44:53 [error] [php] Trying to get property of non-object (/home/k/konturtoru/test/public_html/protected/controllers/PagesController.php:50)
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/k/konturtoru/test/public_html/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(133): PagesController->runAction()
+#3 /home/k/konturtoru/test/public_html/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/k/konturtoru/test/public_html/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/k/konturtoru/test/public_html/framework/web/filters/CInlineFilter.php(58): PagesController->filterAccessControl()
+#6 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/k/konturtoru/test/public_html/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/k/konturtoru/test/public_html/framework/web/CController.php(265): PagesController->runActionWithFilters()
+#9 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(282): PagesController->run()
+#10 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/k/konturtoru/test/public_html/index.php(21): CWebApplication->run()
+REQUEST_URI=/favicon.ico
+2024/09/20 18:44:53 [error] [php] Trying to get property of non-object (/home/k/konturtoru/test/public_html/protected/controllers/PagesController.php:50)
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/k/konturtoru/test/public_html/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(133): PagesController->runAction()
+#3 /home/k/konturtoru/test/public_html/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/k/konturtoru/test/public_html/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/k/konturtoru/test/public_html/framework/web/filters/CInlineFilter.php(58): PagesController->filterAccessControl()
+#6 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/k/konturtoru/test/public_html/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/k/konturtoru/test/public_html/framework/web/CController.php(265): PagesController->runActionWithFilters()
+#9 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(282): PagesController->run()
+#10 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/k/konturtoru/test/public_html/index.php(21): CWebApplication->run()
+REQUEST_URI=/favicon.ico
+2024/09/20 18:47:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/logo.png".' in /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/k/konturtoru/test/public_html/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/logo.png
+HTTP_REFERER=http://kontur-tour.ru/css/template.css
+---
+2024/09/20 18:51:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/mootools.js".' in /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('js/mootools.js')
+#1 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/k/konturtoru/test/public_html/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/mootools.js
+HTTP_REFERER=https://kontur-tour.ru/
+---
+2024/09/20 18:51:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/logo.png".' in /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/k/konturtoru/test/public_html/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/logo.png
+HTTP_REFERER=https://kontur-tour.ru/css/template.css
+---
+2024/09/20 19:09:05 [error] [php] Trying to get property of non-object (/home/k/konturtoru/test/public_html/protected/controllers/PagesController.php:50)
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/k/konturtoru/test/public_html/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(133): PagesController->runAction()
+#3 /home/k/konturtoru/test/public_html/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/k/konturtoru/test/public_html/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/k/konturtoru/test/public_html/framework/web/filters/CInlineFilter.php(58): PagesController->filterAccessControl()
+#6 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/k/konturtoru/test/public_html/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/k/konturtoru/test/public_html/framework/web/CController.php(265): PagesController->runActionWithFilters()
+#9 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(282): PagesController->run()
+#10 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/k/konturtoru/test/public_html/index.php(21): CWebApplication->run()
+REQUEST_URI=/favicon.ico
+2024/09/20 19:09:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/mootools.js".' in /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('js/mootools.js')
+#1 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/k/konturtoru/test/public_html/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/mootools.js
+HTTP_REFERER=http://kontur-tour.ru/bronirovanie-tura
+---
+2024/09/20 19:09:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/logo.png".' in /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/k/konturtoru/test/public_html/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/logo.png
+HTTP_REFERER=http://kontur-tour.ru/css/template.css
+---
+2024/09/20 19:09:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/mootools.js".' in /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('js/mootools.js')
+#1 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/k/konturtoru/test/public_html/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/mootools.js
+HTTP_REFERER=http://kontur-tour.ru/vuezd
+---
+2024/09/20 19:09:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/mootools.js".' in /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('js/mootools.js')
+#1 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/k/konturtoru/test/public_html/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/mootools.js
+HTTP_REFERER=http://kontur-tour.ru/bronirovanie-tura
+---
+2024/09/20 19:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/mootools.js".' in /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('js/mootools.js')
+#1 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/k/konturtoru/test/public_html/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/mootools.js
+HTTP_REFERER=http://kontur-tour.ru/
+---
+2024/09/20 19:20:06 [error] [php] Trying to get property of non-object (/home/k/konturtoru/test/public_html/protected/controllers/PagesController.php:50)
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/k/konturtoru/test/public_html/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(133): PagesController->runAction()
+#3 /home/k/konturtoru/test/public_html/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/k/konturtoru/test/public_html/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/k/konturtoru/test/public_html/framework/web/filters/CInlineFilter.php(58): PagesController->filterAccessControl()
+#6 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/k/konturtoru/test/public_html/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/k/konturtoru/test/public_html/framework/web/CController.php(265): PagesController->runActionWithFilters()
+#9 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(282): PagesController->run()
+#10 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/k/konturtoru/test/public_html/index.php(21): CWebApplication->run()
+REQUEST_URI=/apple-touch-icon.png
+2024/09/20 19:20:06 [error] [php] Trying to get property of non-object (/home/k/konturtoru/test/public_html/protected/controllers/PagesController.php:50)
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/k/konturtoru/test/public_html/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(133): PagesController->runAction()
+#3 /home/k/konturtoru/test/public_html/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/k/konturtoru/test/public_html/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/k/konturtoru/test/public_html/framework/web/filters/CInlineFilter.php(58): PagesController->filterAccessControl()
+#6 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/k/konturtoru/test/public_html/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/k/konturtoru/test/public_html/framework/web/CController.php(265): PagesController->runActionWithFilters()
+#9 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(282): PagesController->run()
+#10 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/k/konturtoru/test/public_html/index.php(21): CWebApplication->run()
+REQUEST_URI=/favicon.ico
+2024/09/20 19:20:06 [error] [php] Trying to get property of non-object (/home/k/konturtoru/test/public_html/protected/controllers/PagesController.php:50)
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 /home/k/konturtoru/test/public_html/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(133): PagesController->runAction()
+#3 /home/k/konturtoru/test/public_html/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/k/konturtoru/test/public_html/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/k/konturtoru/test/public_html/framework/web/filters/CInlineFilter.php(58): PagesController->filterAccessControl()
+#6 /home/k/konturtoru/test/public_html/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/k/konturtoru/test/public_html/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/k/konturtoru/test/public_html/framework/web/CController.php(265): PagesController->runActionWithFilters()
+#9 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(282): PagesController->run()
+#10 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/k/konturtoru/test/public_html/index.php(21): CWebApplication->run()
+REQUEST_URI=/apple-touch-icon-precomposed.png
+2024/09/20 19:26:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "uploads/images/gostin/vityazevo_rajs_ysadba/qe_c.jpg".' in /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/images/...')
+#1 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/k/konturtoru/test/public_html/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/images/gostin/vityazevo_rajs_ysadba/qe_c.jpg
+---
+2024/09/20 19:42:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/mootools.js".' in /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('js/mootools.js')
+#1 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/k/konturtoru/test/public_html/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/mootools.js
+HTTP_REFERER=http://kontur-tour.ru/otpravleniya
+---
+2024/09/20 19:42:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/mootools.js".' in /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('js/mootools.js')
+#1 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/k/konturtoru/test/public_html/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/mootools.js
+HTTP_REFERER=http://kontur-tour.ru/bronirovanie-tura
+---
+2024/09/20 19:42:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "js/mootools.js".' in /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/k/konturtoru/test/public_html/framework/web/CWebApplication.php(141): CWebApplication->runController('js/mootools.js')
+#1 /home/k/konturtoru/test/public_html/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/k/konturtoru/test/public_html/index.php(21): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/mootools.js
+HTTP_REFERER=http://kontur-tour.ru/bs/kontakty
+---

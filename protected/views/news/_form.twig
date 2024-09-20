@@ -1,0 +1,68 @@
+<div class="form">
+
+{%  set form = this.beginWidget('CActiveForm',{
+	'id':'news-form',
+	'enableAjaxValidation':false,
+}) %}
+
+	<p class="note">Поля, отмеченные <span class="required">*</span>, заполнять обязательно.</p>
+
+	{{ form.errorSummary(model)|raw }}
+	    <div class="row">
+            {{ form.labelEx(model,'name')|raw }}
+            <br/>
+            {{ form.textField(model,'name',{'size':80})|raw }}
+            {{ form.error(model,'name')|raw }}
+        </div>
+
+
+        <div class="row">
+            {{ form.labelEx(model,'title')|raw }}
+            <br/>
+            {{ form.textField(model,'title',{'size':80})|raw }}
+            {{ form.error(model,'title')|raw }}
+        </div>
+
+
+        <div id="row">
+            {{ form.labelEx(model,'meta_d')|raw }}
+            <br/>
+            {{ form.textField(model,'meta_d',{'size':80})|raw }}
+            {{ form.error(model,'meta_d')|raw }}
+        </div>
+
+        <div id="row">
+		    {{ form.labelEx(model,'meta_k')|raw }}
+            <br/>
+		    {{ form.textField(model,'meta_k',{'size':80})|raw }}
+		    {{ form.error(model,'meta_k')|raw }}
+        </div>
+
+         <br/>
+  		 <div class="row">
+		    {{ form.labelEx(model,'page')|raw }}
+            <br/>
+		    {{ form.textArea(model,'page',{'cols':108, 'rows':4})|raw }}
+		    {{ form.error(model,'page')|raw }}
+        </div>
+       
+        <br />
+         
+         <p class="note">Основной текст <span class="required">*</span></p>
+        {% do   this.widget('ext.editMe.widgets.ExtEditMe',{
+            "model":model,
+            "attribute":'text',
+            "height":"400px",
+            "toolbar":"Full",
+            'filebrowserImageBrowseUrl' :App.baseUrl ~ '/kcfinder/browse.php?type=images',
+            'filebrowserImageBrowseLinkUrl': App.baseUrl~ '/kcfinder/browse.php?type=images',
+            'filebrowserImageUploadUrl':App.baseUrl ~ '/kcfinder/upload.php?type=images',
+        }) %}
+	<br />
+	<div class="row buttons">
+		{{ C.Html.submitButton('Сохранить')|raw }}
+	</div>
+
+{{ void(this.endWidget()) }}
+
+</div><!-- form -->

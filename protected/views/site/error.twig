@@ -1,0 +1,7 @@
+{% extends 'views/layouts/main.twig' %}
+{% block content %}
+<div class="grid_3 push_1 " id="bodyContent">
+<h2>Error {{ code }}</h2>
+{{ C.Html.encode(message)|raw }} 
+<div class="tep_draw_content_top">
+{% endblock %}

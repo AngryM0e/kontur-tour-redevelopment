@@ -1,0 +1,113 @@
+{% include 'views/layouts/admin/head.twig' %}
+
+<body>
+    
+    <!-- site container -->
+    <div class="container">
+        
+        <!-- Header -->
+            {% include 'views/layouts/admin/header.twig' %}
+        <!-- end Header -->
+        
+        <!-- Menu -->
+            {% if App.user.id == 1 %}
+            	{% include 'views/layouts/admin/menu.twig' %}
+            {% endif %}
+        <!-- end Menu -->
+        
+        <!-- Content -->
+        <div class="content">
+            <!-- Categories -->
+            {%  if App.request.requestUri == '/admin/main' %}
+            <div id="categories">
+                <a class="block" href="/admin/static_pages">
+                    <span class="img_box"><!--<img src="" alt="" />--></span>
+                    <span class="text">
+                        <b>Основные страницы</b>
+                        +, -, редактирование
+                    </span>
+                </a>
+                <a class="block" href="/admin/blacksea_pages">
+                    <span class="img_box"><!--<img src="" alt="" />--></span>
+                    <span class="text">
+                        <b>Черное море</b>
+                        +, -, редактирование
+                    </span>
+                </a>
+                <a class="block" href="/admin/azovsea_pages">
+                    <span class="img_box"><!--<img src="" alt="" />--></span>
+                    <span class="text">
+                        <b>Азовское море</b>
+                        +, -, редактирование
+                    </span>
+                </a>
+                <a class="block" href="/admin/additional_pages">
+                    <span class="img_box"><!--<img src="" alt="" />--></span>
+                    <span class="text">
+                        <b>Дополнительные страницы</b>
+                        +, -, редактирование
+                    </span>
+                </a>
+                <a class="block" href="/admin/dislinks">
+                    <span class="img_box"><!--<img src="" alt="" />--></span>
+                    <span class="text">
+                        <b>Выключить все ссылки</b>
+                        +, -, редактирование
+                    </span>
+                </a>
+                {#<a class="block" href="/slider/admin">
+                    <span class="img_box"><!--<img src="" alt="" />--></span>
+                    <span class="text">
+                        <b>Слайдер</b>
+                        +, -, редактирование
+                    </span>
+                </a>
+                <a class="block" href="/banners/admin">
+                    <span class="img_box"><!--<img src="" alt="" />--></span>
+                    <span class="text">
+                        <b>Банеры</b>
+                        +, -, редактирование
+                    </span>
+                </a> #}
+                {#<a class="block" href="/generalInfo/admin">
+                    <span class="img_box"><!--<img src="" alt="" />--></span>
+                    <span class="text">
+                        <b>Общая информация</b>
+                        +, -, редактирование
+                    </span>
+                </a> #}
+                <div class="clear"></div>
+            </div>
+            <!-- end Categories -->
+            
+            <!-- info block -->
+            <div class="info_block">
+                <div class="top_line">
+                    <h2>Информация</h2>
+                    <!--<a class="help_link" href="#">Помощь</a>-->
+                    <div class="clear"></div>
+                </div>
+                <div class="wrapper">
+                    <div class="text_box">
+                        <span>Добро пожаловать в админ-панель сайта.<br />
+                        Слева Вы видите категории, которые помогут Вам в администрировании и контроле за сайтом. <br />
+                        К Вашим услугам редактирование страниц сайта; добавление, удаление и редактирование новостей; добавление товаров.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            {% block content %}{% if this.id == 'pl' %}{{ content|raw }}{% endif %}{% endblock %}
+
+            <!-- end info block -->
+            <div class="clear"></div>
+        </div>
+        <!-- end Content -->
+        
+    </div>
+    <!-- end site container -->
+    
+    {% include 'views/layouts/admin/footer.twig' %}
+{% block scripts %}{% endblock %}    
+</body>
+</html>

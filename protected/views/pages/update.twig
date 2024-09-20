@@ -1,0 +1,4 @@
+{% extends 'views/layouts/admin/main.twig' %}
+{% block content %}
+    {% do this.renderPartial('_form', {'model':model}) %}
+{% endblock %}

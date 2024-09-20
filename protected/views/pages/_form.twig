@@ -1,0 +1,103 @@
+<div class="form">
+      
+
+{% set form = this.beginWidget('CActiveForm', {
+	'id':'pages-form',
+	'enableAjaxValidation':false,
+}) %}
+
+	<p class="note">Поля, отмеченные <span class="required">*</span>, заполнять обязательно.</p>
+
+        <div class="row" style="float:right;margin-top:-20px;">
+            <label>Показывать в верхнем меню</label>
+            {{ form.CheckBox(model,'disp',{
+                   'checked':(model.disp == 1 )? on:''}
+                )|raw }}
+        </div> 
+        <div class="row" style="float:right;">
+            <label>Показывать в левом меню</label>
+            {{ form.CheckBox(model,'disp_left',{
+                   'checked':(model.disp_left == 1 )? on:''}
+                )|raw }}
+        </div>
+	{#{{ form.errorSummary(model)|raw }}#}
+
+    <div class="row">
+        {{ form.labelEx(model,'sort_num')|raw }}
+        <br/>
+        {{ form.textField(model,'sort_num',{'size':10,'maxlength':10})|raw }}
+        {{ form.error(model,'sort_num')|raw }}
+    </div>
+
+    <div class="row">
+        {{ form.labelEx(model,'leftm_sort')|raw }}
+        <br/>
+        {{ form.textField(model,'leftm_sort',{'size':10,'maxlength':10})|raw }}
+        {{ form.error(model,'leftm_sort')|raw }}
+    </div>
+
+    <div class="row">
+		{{ form.labelEx(model,'url')|raw }}
+                               <br/>
+		{{ form.textField(model,'url',{'size':60,'maxlength':255})|raw }}
+		{{ form.error(model,'url')|raw }}
+	</div>
+
+	<div class="row">
+		{{ form.labelEx(model,'meta_title')|raw }}
+                                <br/>
+		{{ form.textField(model,'meta_title',{'size':60,'maxlength':255})|raw }}
+		{{ form.error(model,'meta_title')|raw }}
+	</div>
+
+	<div class="row">
+		{{ form.labelEx(model,'keywords')|raw }}
+                                <br/>
+		{{ form.textField(model,'keywords',{'size':60})|raw }}
+		{{ form.error(model,'keywords')|raw }}
+	</div>
+
+               <div class="row">
+		{{ form.labelEx(model,'description')|raw }}
+                                <br/>
+		{{ form.textArea(model,'description',{'cols':82})|raw }}
+		{{ form.error(model,'description')|raw }}
+	</div>
+        
+             <div class="row">
+		{{ form.labelEx(model,'title')|raw }}
+                                <br/>
+		{{ form.textField(model,'title',{'size':60})|raw }}
+		{{  form.error(model,'title')|raw }}
+	</div>
+        
+	<div class="row">
+		{# form.labelEx(model,'text')|raw #}
+		{# form.textArea(model,'text',{'rows':6, 'cols':50})|raw #}
+		{# form.error(model,'text')|raw #}
+	</div>
+
+    <br />
+    <p class="note">Основной текст <span class="required">*</span></p>
+     {% do this.widget('ext.editMe.widgets.ExtEditMe',{
+        "model":model,
+        "attribute":'text',
+        "height":"400px",
+        "width":"100%",
+        "toolbar":"Full",
+        'filebrowserImageBrowseUrl' :App.baseUrl ~ '/kcfinder/browse.php?type=images',
+        'filebrowserImageBrowseLinkUrl': App.baseUrl~ '/kcfinder/browse.php?type=images',
+        'filebrowserImageUploadUrl':App.baseUrl ~ '/kcfinder/upload.php?type=images',
+        'filebrowserBrowseUrl' :App.baseUrl ~ '/kcfinder/browse.php?type=files',
+        'filebrowserUploadUrl' :App.baseUrl ~ '/kcfinder/upload.php?type=files'
+      })
+     %}
+
+	<br />
+	<div class="row buttons">
+      {{ C.Html.submitButton('Сохранить')|raw }}
+	</div>
+
+{{ void(this.endWidget()) }}
+
+</div><!-- form -->
